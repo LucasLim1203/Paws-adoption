@@ -1,0 +1,89 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "admin",
+      "gender": "Mr.",
+      "country": "Malaysia",
+      "address": "Kepong, Kuala Lumpur, Malaysia",
+      "role": "admin",
+      "email": "petadopadmin@gmail.com",
+      "phone": "01987654321"
+    },
+    {
+      "id": "Lucas",
+      "name": "Lucas Lim",
+      "password": "00000000",
+      "email": "lucas123@gmail.com",
+      "phone": "01234567890",
+      "country": "singapore",
+      "address": "",
+      "role": "user",
+      "gender": "Mr."
+    },
+    {
+      "id": "Venessa",
+      "name": "Venessa Lim",
+      "password": "venessa",
+      "email": "venessal123@gmail.com",
+      "phone": "0138297372",
+      "country": "singapore",
+      "address": "",
+      "role": "user",
+      "gender": "Ms."
+    },
+    {
+      "id": "Amanda",
+      "name": "Amanda Wong",
+      "password": "amanda",
+      "email": "amandaw12@gmail.com",
+      "phone": "0198989898",
+      "country": "malaysia",
+      "address": "",
+      "gender": "Ms.",
+      "role": "admin"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    }
+  ],
+  "pet": [
+    {
+      "id": 1,
+      "uname": "Lucas",
+      "pname": "Chloe",
+      "gender": "Female",
+      "detail": "Chloe is a poodle",
+      "email": "lucas123@gmail.com",
+      "phone": "01234567890",
+      "active": "Adopted"
+    },
+    {
+      "id": 2,
+      "active": "Available",
+      "uname": "Jonas",
+      "pname": "Cassie",
+      "gender": "Female",
+      "email": "jonas969@gmail.com",
+      "phone": "0179669696",
+      "detail": "Cassie is a Husky"
+    },
+    {
+      "id": 3,
+      "active": "Available",
+      "uname": "Shayne",
+      "pname": "Mangoo",
+      "gender": "Female",
+      "detail": "Cassie is a Husky",
+      "email": "shayne121@gmail.com",
+      "phone": "0192839898"
+    }
+  ]
+}
